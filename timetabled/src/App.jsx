@@ -1,22 +1,14 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
-import heroImg from './assets/hero.png'
-import './App.css'
-import Post from './Post'
+import './App.css';
 
-function App() {
-  const [count, setCount] = useState(0)
+const App = () => {
 
   return (
     <div className="App">
-      <h3>Hi Welcome to WEB102!</h3>
-      <p>Here are some posts:</p>
-      <p>💛</p>
-      <Post name="Marques Bronwlee" description="A passionate developer" numLikes={10}></Post>
-      <Post name="Samantha Smith" description="Loves to code and share knowledge" numLikes={20}></Post>
-      <Post name="Alex Johnson" description="Full-stack developer and tech enthusiast" numLikes={15}></Post>
+      <h1>Itinerary for 7 Days in Japan</h1>
+      <h2>Welcome to Japan, Engineer! Check out this calendar to get to know the city and see what sights awaits you in the coming week!</h2>
+      
     </div>
-)};
+  )
+}
 
 export default App
